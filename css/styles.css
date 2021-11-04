@@ -1,3 +1,18 @@
-body {
+:root {
+    --main-title-color: #FFFFFF;
+    --second-title-color: #212121;
+    --third-title-color: #212121;
+    --fourth-title-color: #212121;
+    --main-text-color: #757575;
+    --second-text-color: #757575;
+    --main-btn-color: #FFFFFF;
+    --second-btn-color: #212121;
+    --header-text-color: #212121;
     
 }
+    
+
+body {
+font-family: "Raleway", "Roboto", sans-serif;
+    }
+    

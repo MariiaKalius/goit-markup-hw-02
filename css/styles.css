@@ -131,10 +131,11 @@ color: var(--main-title-color);
 }
 
 .hero-btn {
+    cursor: pointer;
     font-family: inherit;
     background: var(--accent-color);
     border: 1px solid transparent;
-    font-weight: bold;
+    font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
 align-items: center;
@@ -264,3 +265,37 @@ letter-spacing: 0.03em;
 color: var(--main-title-color);
 }
 
+.portfolio-btn {
+    cursor: pointer;
+    background-color: #F5F4FA;
+    border: 1px solid transparent;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color: var(--second-btn-color);
+
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    background-color: var(--accent-color);
+}
+
+.portfolio-title{
+
+    font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--third-title-color);
+
+}
+
+.portfolio-text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 2;
+letter-spacing: 0.03em;
+color: var(--second-text-color);
+}

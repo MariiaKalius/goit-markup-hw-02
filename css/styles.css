@@ -11,12 +11,17 @@
     --accent-color: #2196F3;
     --background-color: #2F303A;
     --third-text-color: rgba(255, 255, 255, 0.6);
+    --second-accent-color: #188CE8;
+    --main-background-color: #f5f4fa;
 }
     
 
 body {
 font-family: "Roboto", sans-serif;
-color:#757575;
+color: var(--main-text-color);
+background-color:var(--main-background-color);
+font-size: 14px;
+letter-spacing: -0.03em ;
 
     }
 
@@ -45,7 +50,7 @@ color:#757575;
     /* -----------------------HEADER--------------------- */
 
     .header{
-        background-color:  #FFFFFF;
+        background-color: var(--main-title-color);
     }
 
     
@@ -76,6 +81,7 @@ color: var(--accent-color);
     
     .header-link {
         font-weight: 500;
+        font-style: normal;
 font-size: 14px;
 line-height: 1.33;
 letter-spacing: 0.02em;
@@ -88,7 +94,7 @@ color:var(--header-text-color) ;
     }
   
     .header-tel {
-
+        font-style: normal;
         font-weight: 500;
 font-size: 14px;
 line-height: 1.33;
@@ -103,7 +109,7 @@ color: var(--main-text-color);
 
 
     .header-mailto {
-
+        font-style: normal;
         font-weight: 500;
 font-size: 14px;
 line-height: 1.33;
@@ -145,7 +151,7 @@ color: var(--main-btn-color);
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: #188CE8;
+    background-color:var(--second-accent-color);
 }
 
 /* -------------------SPECIFICITIES------------------------- */
@@ -240,6 +246,7 @@ color: var(--main-title-color);
 
 
 .contacts-mailto{
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -253,6 +260,7 @@ color: var(--main-title-color);
 }
 
 .contacts-tel{
+    font-style: normal;
     font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -266,6 +274,7 @@ color: var(--third-text-color);
 }
 
 .contacts-item-adress{
+    font-style: normal;
     font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -293,6 +302,7 @@ color: var(--second-btn-color);
 .portfolio-btn:hover,
 .portfolio-btn:focus{
     background-color: var(--accent-color);
+    color: var(--main-title-color);
 }
 
 .portfolio-title{

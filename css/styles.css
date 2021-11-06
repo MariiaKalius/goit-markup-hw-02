@@ -247,6 +247,11 @@ color: var(--main-title-color);
     color: var(--third-text-color);
 }
 
+.contacts-mailto:hover,
+.contacts-mailto:focus{
+    color: var(--accent-color);
+}
+
 .contacts-tel{
     font-weight: 400;
 font-size: 14px;
@@ -255,12 +260,22 @@ letter-spacing: 0.03em;
 color: var(--third-text-color);
 }
 
+.contacts-tel:hover,
+.contacts-tel:focus{
+    color: var(--accent-color);
+}
+
 .contacts-item-adress{
     font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--main-title-color);
+}
+
+.contacts-item-adress:hover,
+.contacts-item-adress:focus{
+    color: var(--accent-color);
 }
 
 .portfolio-btn {
